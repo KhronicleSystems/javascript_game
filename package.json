@@ -2,7 +2,7 @@
   "name": "javascript-game",
   "version": "1.0.0",
   "description": "create a javascript game to learn about concepts in javascript",
-  "main": "index.js",
+  "main": "user-gameplay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
