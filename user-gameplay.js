@@ -2,12 +2,17 @@ const prompt = require("prompt-sync")({sigint:true});
 
 let input = null;
 
+function endGame(){
+    process.exit()
+
+
+}
+
 while(input !== "q"){
     console.log("(w)up, (s)down, (a)left, (d)right, (q)uit.");
     input = prompt("which way would you want to move?");
-    console.log(input);
 
-    switch(input){
+    switch(input.toLowerCase()){
         case "w":
             console.log("\n you moved up\n");
             break;
@@ -22,7 +27,7 @@ while(input !== "q"){
             break;
         case "q":
             console.log("thank you for playing");
-            process.exit()
+            endGame();
             break;
         default:
             console.log("\n unrecognized input ! \n")

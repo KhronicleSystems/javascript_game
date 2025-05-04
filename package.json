@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhronicleSystems/javascript_game.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KhronicleSystems/javascript_game/issues"
+  },
+  "homepage": "https://github.com/KhronicleSystems/javascript_game#readme"
 }
